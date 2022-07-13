@@ -41,5 +41,5 @@ def copy(filepath, destpath):
         return None
 
 
-result = copy("D:\\Projects\\OpenAI\\data\\_ES#_5 220709 13.55.47 098.3A1.png", "D:\\Projects\\OpenAI\\data")
+result = copy("D:\\Projects\\OpenAI\\data\\_ES#_5 220709 13.55.47 098.3A1.png", "")
 print(result)
