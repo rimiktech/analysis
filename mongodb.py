@@ -1,12 +1,13 @@
 import pymongo
 
 class MongoDBClient(object):
-    SERVER = "" #THIS WILL BE THE MONGODB CONNECTION SERVER.
+    SERVER = "xxxxxxx" #THIS WILL BE THE MONGODB CONNECTION SERVER.
     PORT = "" #THIS WILL BE THE PORT OF MONGODB SERVER.
+    DATABASE = "xxxxxxxx" #THIS WILL BE THE DATABASE.
 
     def __init__(self, col, index=None):        
         connection = pymongo.Connection(MongoDBClient.SERVER, MongoDBClient.PORT)
-        self.db = connection[settings.MONGODB_DB]
+        self.db = connection[MongoDBClient.DATABASE]
         self.collection = self.db[col]
         if index:
             self.collection.create_index(index, unique=True)
