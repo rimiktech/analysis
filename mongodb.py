@@ -1,3 +1,7 @@
+''''
+We have a pymongo class which has a method walk to yield all documents from a collection by given the skip and limit
+
+'''
 import pymongo
 
 class MongoDBClient(object):
