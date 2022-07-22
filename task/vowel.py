@@ -1,3 +1,4 @@
+#Write the function "recur_fibo" to display the Fibonacci sequence.The last term enter by the user?
 def removeVowels(string):
     vowel = 'aeiou'
     

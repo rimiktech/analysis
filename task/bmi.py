@@ -1,3 +1,4 @@
+#Write the program to Creating BMI Calculator?[BMI-Body Mass Index]
 H=float(input("enter the your H in cm: "))
 W=float(input("enter the your W in kg: "))
 H=H/100

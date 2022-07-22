@@ -1,3 +1,9 @@
+#-Write the program to create your own Hangman Game?
+#Hangman is a popular word guessing game where 
+#the player attempts to build a missing word by guessing one letter at a time.
+#After a certain number of incorrect guesses,
+#The game also ends if the player correctly identifie
+# all the letters of the missing word.
 name = input("Enter your name: ")
 print("Hello, " + name, "Let's play hangman!")
 

@@ -1,4 +1,4 @@
-
+#write a program to multiply two matrices using two function matrixPrint() and matrixMultiply()?
 MAX = 100
 def matrixPrint(M, row, col):
    for i in range(row):

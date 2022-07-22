@@ -1,3 +1,4 @@
+#Write a program to tree traversals (Inorder, Preorder and Postorder)?
 class Node:
 	def __init__(self, key):
 		self.left = None

@@ -1,3 +1,5 @@
+#Given you an array S of n integers are there  element A,B,C in S such a way that A+B+C=target?  
+#Find all unique triples in thr array which gives the sum of target.
 def find3Numbers(A, arr_size, sum):
 
 	

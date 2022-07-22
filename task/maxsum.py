@@ -1,3 +1,5 @@
+#Write a program to a given an array of integers, return the maximum sum for a non-empty subarray with 
+#at most one element deletion.
 def maxSumSubarrayRemovingOneEle(arr, n):
 	
 	fw = [0 for k in range(n)]
@@ -29,7 +31,7 @@ def maxSumSubarrayRemovingOneEle(arr, n):
 		bw[i] = cur_max
 		i -= 1
 
-	fans = int(input("enter the no"))
+	fans = max_so_far
 
 
 	for i in range(1,n-1):
@@ -38,7 +40,7 @@ def maxSumSubarrayRemovingOneEle(arr, n):
 	return fans
 
 
-arr = [1 , 2 , 3 , 5 ,8 ]
+arr = [-1 , 4 , -1 , 6 ,-8, 6 ]
 n = len(arr)
 print (maxSumSubarrayRemovingOneEle(arr, n))
 

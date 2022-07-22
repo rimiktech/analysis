@@ -1,3 +1,8 @@
+#Write a program to swap the elements of linked list pairwise in python? 
+#For example:- 
+#if the linked list is 1->2->3->4->5 then
+#the function should change it to 2->1->4->3->5, and
+#if the linked list is then the function should change it to.  
 class Node:
 
 	

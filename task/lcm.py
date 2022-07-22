@@ -1,3 +1,4 @@
+#Write the function "comput_LCM",  that will take two number as argument and return the LCM of two numbers.
 def compute_lcm(x, y):
     if x > y:
         greater= x

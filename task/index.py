@@ -1,3 +1,5 @@
+#Write a program to implement direct index mapping with negative values allowed?
+#Given a limited range array contains both positive and non-positive numbers.
 def search(X):
 
 	if X >= 0:

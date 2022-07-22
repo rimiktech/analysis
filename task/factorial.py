@@ -1,3 +1,6 @@
+#Write the function "recur_factorial",  that will take one number as argument and 
+# return  factorial of that number.
+If number is negative return  "factorial does not exist for negative numbers"
 def recur_factorial(n):  
    if n == 1:  
        return n  

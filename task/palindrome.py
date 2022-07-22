@@ -1,4 +1,6 @@
-#Program to find length of longest palindromic subsequence in Python
+#Write a program to find length of longest palindromic subsequence in Python?
+#Suppose we have a lowercase string s;
+#we have to find the length of the longest palindromic subsequence in s.
 class Solution:
    def solve(self, s):
       n = len(s)

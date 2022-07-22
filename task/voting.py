@@ -1,3 +1,7 @@
+#write  a program to conduct the election and 
+# find the winner of an election where votes?
+#A-fist enter the name of candidate 
+#B-select whom to vote
 Candidate1=input("enter the 1st candidate name:")
 Candidate2=input("enter the 2st candidate name:")
 cand1_votes=0
