@@ -1,3 +1,4 @@
+#write a program to created a digital clock with use Tkinter Module ?
 from tkinter import *
 from tkinter.ttk import *
 
